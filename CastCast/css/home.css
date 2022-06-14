@@ -1,0 +1,52 @@
+html {
+  background-image: url("../img/4278751-min.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  padding-left: 6rem;
+}
+
+.social-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.header-link:link,
+.header-link:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.header-link:hover,
+.header-link:active {
+  color: #06c633;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-right: 6rem;
+  gap: 3rem;
+  text-transform: uppercase;
+}
+
+.main-nav-link {
+  font-size: 2rem;
+  color: white;
+}
